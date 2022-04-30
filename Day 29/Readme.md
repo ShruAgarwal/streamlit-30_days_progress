@@ -15,4 +15,7 @@ Create classifying labels, paste your keyphrases, and you're off!
 Any  product range (bags, shoes, boots etc.)
 We decide! 💪
 
+### 📌 An important tip --
+As we are going to the  Hugging Face Inference API, we need a API Token. I haven't uploaded this token here but, you can save your token in `secrets.toml` file under `.streamlit` folder!
+
 For code explanation and more, refer --- [Charly's Blog](https://www.charlywargnier.com/post/how-to-create-a-zero-shot-learning-text-classifier-using-hugging-face-and-streamlit)
