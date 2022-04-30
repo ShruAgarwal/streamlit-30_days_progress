@@ -17,10 +17,6 @@ from st_aggrid.grid_options_builder import GridOptionsBuilder
 from st_aggrid.shared import JsCode
 from st_aggrid import GridUpdateMode, DataReturnMode
 
-# Import for loading interactive keyboard shortcuts into the app
-#from dashboard_utils.gui import keyboard_to_url
-#from dashboard_utils.gui import load_keyboard_class
-
 #############################################################################
 # The code below is to control the layout width of the app.
 if "widen" not in st.session_state:
@@ -78,11 +74,6 @@ with st.sidebar:
         menu_icon="",
         default_index=0,
     )
-#######################################################
-
-# The class below is for adding some formatting to the shortcut button on the left sidebar.
-#load_keyboard_class()
-
 #######################################################
 
 # Set up session state so app interactions don't reset the app.
@@ -470,27 +461,3 @@ elif selected == "Unlocked Mode":
 
 if __name__ == "__main__":
     main()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
