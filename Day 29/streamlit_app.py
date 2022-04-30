@@ -13,7 +13,6 @@ from streamlit_tags import st_tags, st_tags_sidebar
 # Imports for aggrid
 from st_aggrid import AgGrid
 from st_aggrid import AgGrid
-import pandas as pd
 from st_aggrid.grid_options_builder import GridOptionsBuilder
 from st_aggrid.shared import JsCode
 from st_aggrid import GridUpdateMode, DataReturnMode
