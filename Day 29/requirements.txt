@@ -1,0 +1,5 @@
+streamlit==1.8.1
+pandas==1.4.0
+streamlit-tags
+streamlit-aggrid
+streamlit-option-menu
